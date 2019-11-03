@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRAJYOT25/html-css-website.git"
+  },
+  "author": "Prajyot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRAJYOT25/html-css-website/issues"
+  },
+  "homepage": "https://github.com/PRAJYOT25/html-css-website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
