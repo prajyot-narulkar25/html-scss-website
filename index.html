@@ -137,7 +137,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                         <h2 class="heading-secondary">
                             Most popular tours 
@@ -171,7 +171,7 @@
                                                 <p class="card__price-only">Only</p>
                                                 <p class="card__price-value">$297</p>
                                             </div>
-                                            <a href="" class="btn btn--white">Book Now </a>
+                                            <a href="#popup" class="btn btn--white">Book Now </a>
                                         </div>
                                    </div> 
                                 </div>
@@ -203,7 +203,7 @@
                                                      <p class="card__price-only">Only</p>
                                                      <p class="card__price-value">$497</p>
                                                  </div>
-                                                 <a href="" class="btn btn--white">Book Now </a>
+                                                 <a href="#popup" class="btn btn--white">Book Now </a>
                                              </div>
                                         </div> 
                                      </div>
@@ -235,7 +235,7 @@
                                                      <p class="card__price-only">Only</p>
                                                      <p class="card__price-value">$897</p>
                                                  </div>
-                                                 <a href="" class="btn btn--white">Book Now </a>
+                                                 <a href="#popup" class="btn btn--white">Book Now </a>
                                              </div>
                                         </div> 
                                      </div>                        </div>
@@ -321,22 +321,19 @@
                                     <input type="email" autocomplete="off" class="form__input" id="email" placeholder="Email Address" required>
                                     <label for="email" class="form__label">Email Address</label>
                                 </div>
-                                <!-- <div class="form__group"> -->
                                     <div class="form__radio-group u-margin-bottom-medium">
                                         <input type="radio" class="form__radio-input" id="small" name="size">
                                         <label for="small" class="form__radio-label">
                                             <span class="form__radio-button"></span>
                                             Small tour group</label>
                                     </div>
-                                <!-- </div> -->
-                                <!-- <div class="form__group"> -->
+                         
                                         <div class="form__radio-group">
                                             <input type="radio" class="form__radio-input" id="value" name="size">
                                             <label for="large" class="form__radio-label">
                                             <span class="form__radio-button"></span>
                                             Large tour group</label>
                                         </div>
-                                    <!-- </div> -->
                                     <div class="form__group">
                                         <button class="btn btn--green">
                                             Next step &rarr;
@@ -386,6 +383,36 @@
                 </div>
             </div>
         </footer>
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/nat-8.jpg" alt="tour photot" class="popup__img">
+                <img src="img/nat-9.jpg" alt="tour photot" class="popup__img">
 
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__closed">
+                    &times;
+                </a>
+                <h2 class="heading-secondary u-margin-bottom-small">
+                    Start Booking now
+                </h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Pleease read these terms before booking</h3>
+                <p class="popup__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Erat nam at lectus urna duis
+                    convallis convallis tellus. Ut sem viverra aliquet 
+                    eget sit amet tellus. Nulla pharetra diam sit amet. 
+                    Metus vulputate eu scelerisque felis. Tincidunt vitae 
+                    semper quis lectus nulla at volutpat diam. Mollis nunc 
+                    sed id semper risus in hendrerit. Maecenas ultricies mi 
+                    eget mauris pharetra et ultrices. Amet tellus cras 
+                    adipiscing enim eu turpis egestas.
+                </p>
+                <a href="#" class="btn btn--green">Book Now</a>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
