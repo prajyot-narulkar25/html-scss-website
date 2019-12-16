@@ -1,4 +1,6 @@
 .card {
+
+    // FUNCTIONALITY
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
@@ -48,6 +50,7 @@
     }
 
 
+    // FRONT SIDE STYLING
     &__picture {
         background-size: cover;
         height: 23rem;
@@ -130,6 +133,7 @@
         }
     }
 
+    // FRONT SIDE STYLING
     &__cta {
         position: absolute;
         top: 50%;
@@ -159,6 +163,7 @@
 
 
 
+    //@include respond(tab-port) {
     @media only screen and (max-width: 56.25em),
             only screen and (hover: none) {
 
@@ -187,6 +192,7 @@
             padding: 1rem 3rem;
         }
 
+        // FRONT SIDE STYLING
         &__cta {
             position: relative;
             top: 0%;
